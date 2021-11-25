@@ -15,3 +15,94 @@ body{
   color: var(--font-color);
 }
 
+/* header */ 
+
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .starwars-svg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+
+  .header h1 {
+    color: var(--font-color);
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+  
+  .btn-mandalorian, .btn-sith {
+    padding: 0.5rem 2rem;
+  }
+
+  
+
+
+  /* main section */
+
+
+
+.container {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  textarea {
+    margin:  1rem;
+    padding: 1rem;
+    outline: none;
+    resize: none;
+    font-family: inherit;
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+    font-size: 20px;
+    border-radius: 0.5rem;
+    border: 2px solid var(--primary-color);
+    text-transform: uppercase;
+  }
+  
+  #input-text {
+    margin-bottom: 0;
+  }
+  
+  #translated-text {
+    margin-top: 0;
+  }
+  
+  button {
+    cursor: pointer;
+    margin: 0.5rem 1rem;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-family: inherit;
+    border-radius: 0.5rem;
+  }
+  
+  button:hover {
+    transform: scale(0.98);
+  }
+  
+  /* footer */
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: auto;
+    max-width: 600px;
+  }
