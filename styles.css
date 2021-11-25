@@ -1,1 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300;1,500&family=Henny+Penny&family=Poller+One&display=swap');
+:root {
+    
+    --primary-color: #416EB5;
+    --secondary-color: #000000;
+    --font-color: #F3F4F6;
+  }
+
+body{
+
+    font-family: 'Poller One', cursive;
+    box-sizing: border-box;
+  margin: 0;
+  background-color: var(--primary-color);
+  color: var(--font-color);
+}
+
