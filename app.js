@@ -6,8 +6,8 @@ var sith = document.getElementById('sith');
 
 
 var url = {
-  dothrakiURL: "https://api.funtranslations.com/translate/mandalorian.json",
-  valyrianURL: "https://api.funtranslations.com/translate/sith.json",
+  mandalorianURL: "https://api.funtranslations.com/translate/mandalorian.json",
+  sithURL: "https://api.funtranslations.com/translate/sith.json",
 };
 
 
