@@ -21,6 +21,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 1rem;
   }
 
   .starwars-svg {
@@ -32,9 +33,10 @@ body{
 
   .header h1 {
     color: var(--font-color);
-    font-size: 3rem;
-    margin-bottom: 0rem;
-    text-align: center;
+    font-size: 100rem;
+    margin-bottom: 0;
+    
+    
   }
   
   .btn-mandalorian, .btn-sith {
