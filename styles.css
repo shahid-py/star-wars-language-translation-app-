@@ -33,14 +33,15 @@ body{
   .header h1 {
     color: var(--font-color);
     font-size: 3rem;
-    margin-bottom: 0;
+    margin-bottom: 0rem;
+    text-align: center;
   }
   
   .btn-mandalorian, .btn-sith {
     padding: 0.5rem 2rem;
   }
 
-  
+
 
 
   /* main section */
